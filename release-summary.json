@@ -1,29 +1,29 @@
 {
-  "version": "1.109.0",
+  "version": "1.112.0",
   "changes": {
     "en-US": [
-      "Refresh note image sharing with refined themes, theme-matched typography, monogram avatars, and a streamlined preview.",
-      "Android fullscreen note images now support pinch zoom and dragging to inspect details (#520).",
-      "Make poster editing more reliable by avoiding false save and draft recovery conflicts, improving editor startup, and consolidating zoom controls.",
-      "Keep the AI assistant launcher consistently positioned across note editors.",
-      "Restore the all-notes view when the selected notebook is deleted from another client.",
-      "Improve WorkBuddy login checks so unusable saved credentials are reported instead of appearing connected."
+      "Add optional PicGo image uploads on desktop, with connection testing and upload failure recovery. (#530)",
+      "Resize the notebook and note-list panes while keeping note titles, tags, and editor actions readable in smaller windows. (#527, #528)",
+      "Improve desktop agent reliability by recovering temporary note-access failures, detecting missing authentication, and showing clearer diagnostics. (#531)",
+      "Prevent unintended note-reference suggestions while typing and improve the readability of tables in AI responses.",
+      "Refresh the web clipper popup, settings, and save notifications with consistent controls and colors.",
+      "Fix PDF preview loading on Docker and self-hosted installations. If a previously cached PDF worker still fails, clear the site's cache and reload. (#544)"
     ],
     "zh-CN": [
-      "升级笔记图片分享：精修主题、支持跟随主题的字体、字母头像，并简化预览操作。",
-      "Android 笔记图片全屏后支持双指缩放和拖动，便于查看大图细节（#520）。",
-      "提升海报编辑可靠性：避免误报保存及草稿恢复冲突，改善编辑器启动，并统一缩放操作。",
-      "统一各类笔记编辑器中 AI 助手入口的位置与间距。",
-      "选中的笔记本被其他客户端删除后，自动恢复全部笔记列表。",
-      "改善 WorkBuddy 登录检查，避免不可用的已保存凭据被误显示为连接成功。"
+      "桌面端新增可选 PicGo 图床上传，支持连接测试和上传失败处理。（#530）",
+      "支持拖动调整笔记本栏和笔记列表宽度，改善小窗口下标题、标签和编辑操作的可读性。（#527、#528）",
+      "改善桌面智能体连接可靠性：恢复临时笔记访问失败，准确识别未登录状态，并提供更清晰的诊断信息。（#531）",
+      "修复输入时意外触发笔记引用建议的问题，并改善 AI 回复表格的可读性。",
+      "更新网页剪藏插件弹窗、设置和保存提示，统一控件与配色。",
+      "修复 Docker 和自托管实例的 PDF 预览加载问题；若旧缓存仍导致失败，请清除站点缓存后重新加载。（#544）"
     ],
     "ja": [
-      "ノートの画像共有に洗練されたテーマ、テーマに合わせたフォント、イニシャルアイコン、使いやすいプレビューを追加しました。",
-      "Android の全画面画像でピンチズームとドラッグに対応し、細部を確認しやすくしました（#520）。",
-      "ポスター編集の保存・下書き復元時の誤った競合を修正し、起動とズーム操作を改善しました。",
-      "各ノート編集画面で AI アシスタントの位置と間隔を統一しました。",
-      "選択中のノートブックが別の端末で削除された場合、すべてのノート一覧に戻るよう修正しました。",
-      "WorkBuddy のログイン確認を改善し、使用できない保存済み認証情報を接続成功と表示する問題を修正しました。"
+      "デスクトップに任意の PicGo 画像アップロードを追加し、接続テストと失敗時の復旧に対応しました。",
+      "ノートブックとノート一覧の幅を調整でき、小さなウィンドウでもタイトル、タグ、編集操作が見やすくなりました。",
+      "デスクトップエージェントの一時的なノートアクセス障害からの復旧、未認証状態の検出、診断情報を改善しました。",
+      "入力中の意図しないノート参照候補を抑え、AI 回答内の表を見やすくしました。",
+      "Web クリッパーのポップアップ、設定、保存通知の操作部品と配色を統一しました。",
+      "Docker とセルフホスト環境で PDF プレビューを読み込めない問題を修正しました。古いキャッシュで失敗が続く場合はサイトのキャッシュを削除して再読み込みしてください。"
     ]
   }
 }
